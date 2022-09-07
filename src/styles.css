@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.Container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 304px;
+  height: 304px;
+  position: relative;
+  background-color: yellow;
+}
+.Box {
+  border: 1px solid blue;
+  width: 100px;
+  height: 100px;
+  display: flex;
+}
+
+.Box1 {
+  background-color: green;
+}
+.Box2 {
+  background-color: purple;
+  margin: 0 auto;
+}
+
+.Box3 {
+  background-color: red;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.BoxContent {
+  margin: auto; /* To center align the text content within a box */
+}
